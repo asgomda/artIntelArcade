@@ -1,0 +1,28 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #60a9ff;
+    background-image: url("./back.png");
+}
+
+
+.btn{
+    background: none;
+    padding: 1rem 2rem;
+    color: #ffa260;
+    border: 2px solid;
+    transition: 0.175s transform cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+
+
+  .btn:hover{
+    border-color: #f1ff5c;
+    box-shadow: 0 0.5em 0.5em -0.3em #f1ff5c;
+    color: white;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+  
+  }

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5.glitch@latest/p5.glitch.js"></script>
+    <script type="text/javascript"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta3/css/bootstrap.min.css"
+        integrity="sha512-N415hCJJdJx+1UBfULt+i+ihvOn42V/kOjOpp1UTh4CZ70Hx5bDlKryWaqEKfY/8EYOu/C2MuyaluJryK1Lb5Q=="
+        crossorigin="anonymous">
+
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
+    <link rel="stylesheet" href="app.css"> -->
+    <link rel="stylesheet" href="app.css">
+    <title>Arcade.ai</title>
+</head>
+
+
+
+<body>
+
+    <!-- navbar  -->
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- Navbar content -->
+    <!-- <div class="container-fluid">
+        <a class="navbar-brand" href="#">Arcade.ai</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Games</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">About</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav> -->
+    <div class="container d-flex justify-content-around mb-5 mt-5 align-items-center">
+        <img src="arcade.png" alt="">
+    </div>
+
+
+    <div class="container d-flex justify-content-around align-items-center">
+        <div class="row ">
+            <div class="col-lg-3">
+                <div class="card p-2" style="width: 18rem;">
+                    <img src="flappy.jpeg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Flappy Bird Game</h5>
+                        <p class="card-text">To play, move your hand up to make the bird flap and down to stop flapping.
+                            Avoid obstacles to gain points.</p>
+                        <a href="./flappybird/index.html" class="btn btn-primary">Flappy Bird</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card p-2" style="width: 18rem;">
+                    <img src="breakout.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Breakout Game</h5>
+                        <p class="card-text">Time to move your head! Control the platform with your face and break as
+                            many tiles as you can. Remember, you have three lives.</p>
+                        <a href="./snakegame/index.html" class="btn btn-primary">Breakout Game</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card p-2" style="width: 18rem;">
+                    <img src="ninja.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ninja Run Game</h5>
+                        <p class="card-text">This game is similar to the famous t-Rex game. Say Jump to make the ninja
+                            jump over obstacles and earn points</p>
+                        <a href="./dinorun/index.html" class="btn btn-primary">Ninja Run</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card p-2" style="width: 18rem;">
+                    <img src="snake.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Snake Game</h5>
+                        <p class="card-text">Control the snake to collect food and increase your length. In this game
+                            you use your right wrist to control the snake.
+                        </p>
+                        <a href="./gamegame/index.html" class="btn btn-primary">Snake Game</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- <audio src="/backgroundSound.mp3" autostart loop>
+        <p>If you are reading this, it is because your browser does not support the audio element.</p>
+    </audio> -->
+
+    <audio autoplay loop>
+        <source src="backgroundSound.mp3" type="audio/ogg">
+        <embed src="backgroundSound.mp3" autostart="true" loop="true" hidden="true">
+    </audio>
+
+
+    <!-- <embed src="backgroundSound.mp3" width="180" height="90" loop="true" autostart="true" hidden="true"> -->
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta3/js/bootstrap.min.js"
+    integrity="sha512-mp3VeMpuFKbgxm/XMUU4QQUcJX4AZfV5esgX72JQr7H7zWusV6lLP1S78wZnX2z9dwvywil1VHkHZAqfGOW7Nw=="
+    crossorigin="anonymous"></script>
+
+<script src="script.js"></script>
+
+</html>
