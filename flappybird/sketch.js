@@ -228,7 +228,7 @@ function gotResult(error, results) {
   //   results[0].label = "nada!";
   // }
    label = results[0].label;
-  if(label==="Up"){
+  if(label==="UP"){
     bird.velocity.y = FLAP;
   }
   console.log(label)
